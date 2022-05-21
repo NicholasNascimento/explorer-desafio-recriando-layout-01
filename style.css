@@ -9,12 +9,19 @@
   --subtitle: #FFFFFF;
 }
 
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .page {
   background: var(--background);
+  height: 100vh;
 }
 
 nav {
   display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
   text-align: center;
   justify-content: space-between;
 
@@ -39,6 +46,61 @@ nav ul a:hover {
   color: var(--subtitle-dark);
 }
 
-p {
-  font-family: 'Open Sans', sans-serif;
+main {
+  padding-bottom: 157px;
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.content {
+  padding-left: 89px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 40px;
+
+  padding-bottom: 59px;
+
+  color: var(--subtitle);
+}
+
+span {
+  color: var(--span);
+}
+
+main p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  
+  color: var(--subtitle-dark);
+}
+
+strong {
+  color: var(--subtitle);
+}
+
+.line {
+  border: 1px solid #00BFA6;
+  width: 568px;
+  margin: 0 auto;
+
+  margin-bottom: 27px;
+}
+
+footer {
+  text-align: center;
+  color: var(--subtitle);
+}
+
+#padlock {
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
 }
