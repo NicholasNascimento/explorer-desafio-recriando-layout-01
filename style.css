@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --background: #2F2E41;
+  --span: #00BFA6;
+  --subtitle-dark: #C2C2C2;
+  --subtitle: #FFFFFF;
+}
+
+.page {
+  background: var(--background);
+}
+
+nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+
+  padding: 71px 99px 101px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 64px;
+}
+
+nav ul a {
+  color: var(--subtitle);
+  text-decoration: none;
+  font-family: 'JetBrains Mono', monospace;
+  
+  transition: color 0.2s;
+}
+
+nav ul a:hover {
+  color: var(--subtitle-dark);
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
